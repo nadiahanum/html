@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Biodata Saya</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Nama </th>
+                <th>Tempat/Tanggal Lahir</th>
+                <th>Alamat</th>
+                <th>No.Telepon</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>Nadia Hanum Pratiwi</td>
+                <td>21 November 2008</td>
+                <td>Rejoso</td>
+                <td>085184659583</td>
+            </tr>
+             <tr>
+                <td>2.</td>
+                <td>Nadilla Syofrotin Nisa</td>
+                <td>15 Agustus 2008</td>
+                <td>Begadung</td>
+                <td>086482153292</td>
+            </tr>
+             <tr>
+                <td>3.</td>
+                <td>Suci Endah Salimah</td>
+                <td>11 Mei 2009</td>
+                <td>Werungotok</td>
+                <td>087935783833</td>
+            </tr>
+             <tr>
+                <td>4.</td>
+                <td>Rista Wiranti Cahya </td>
+                <td>17 Maret 2008</td>
+                <td>Sukomoro</td>
+                <td>087492668231</td>
+            </tr>
+             <tr>
+                <td>5.</td>
+                <td>Rosyidah Laylatul Rohmah</td>
+                <td>21 Juli 2008</td>
+                <td>Tanjungrejo</td>
+                <td>081956398760</td>
+            </tr>
+             <tr>
+                <td>6.</td>
+                <td>Yolla Distihany Onerisino</td>
+                <td>21 Desember 2008</td>
+                <td>Rejoso</td>
+                <td>08793538209</td>
+            </tr>
+        </tbody>
+</table>
+<hr>
+<h1>Formulir Feedback</h1>
+<form  action="submit-form" method="post">
+    <label for="nama">Nama Lengkap:</label><br>
+    <input type="text" id="nama" name="nama" placeholder="nama lengkap anda"><br><br>
+
+    <label for="email">Alamat Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="contoh@coding.com"><br><br>
+
+    <label for="komentar">Komentar/Saran Anda:</label><br>
+    <textarea id="komentar" name="komentar" rows="4" cols="40" placeholder="tulis komentar/saran anda"></textarea><br><br>
+
+    <label for="kepuasan">Apakah anda puas dengan materi ini?: </label><br>
+    <input type="radio" id="puas" name="kepuasan" value="Puas">
+    <label for="puas">puas</label><br>
+    <input type="radio" id="tidak puas" name="kepuasan" value="Tidak Puas">
+    <label for="tidak puas">Tidak puas</label><br><br>
+    
+    <label for="topik">Topik yang ingin dipelajari selanjutnya:</label><br>
+    <input type="checkbox" id="css" name="topik" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="checkbox" id="js" name="topik" value="JavaScript">
+    <label for="js">JavaScript</label><br>
+    <input type="checkbox" id="php" name="topik" value="PHP">
+    <label for="php">PHP</label><br><br>
+
+    <input type="submit" value="Kirim Feedback">
+</form>
+</body>
+</html>
