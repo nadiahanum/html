@@ -1,29 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div id="header">
-        <h1>Nadia Hanum Pratiwi</h1>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Project</a>
-            <a href="#">Contact</a>
-        </nav>
-    </div>
+/* BODY */
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
 
-    <section class="hero-area">
-        <h2>Selamat Datang di Portofolio Saya</h2>
-        <p>Saya adalah seorang web developer yang berfokus pada pembuatan website modern dan responsif</p>
-    </section>
+/* HEADER */
+#header{
+    background-color: #333;
+    color: white;
+    padding: 15 px 20 px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-    <section class="project-gird">
-        <div class="project-item"></div>   
-    </section>
-    
-</body>
-</html>
+#header a{
+    color: white;
+    text-decoration: none;
+    margin-left: 15 px;
+}
+
+/* HERO AREA */
+.hero-area{
+    background-image: url("https://picsum.photos/1000/400");
+    background-size: cover;
+    background-position: center;
+    height: 400 px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2 px 2 px 4 px rgba(0,0,0,0.5);
+}
+
+/* PROJECTS */
+.projects-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40 px 20 px;
+}
+
+.project-item{
+    width: 300 px;
+    background-color: white;
+    border: 1 px solid #ddd;
+    border-radius: 8 px;
+    padding: 20 px;
+    margin: 15 px;
+    text-align: center;
+    box-shadow: 0 2 px 5 px rgba(0,0,0,0.1);
+}
+
+.project-item img{
+    width: 100%;
+    height: 180 px;
+    object-fit: cover;
+    border-radius: 4 px;
+    margin-top: 15 px;
+}
+
+/* FOOTER */
+#main-footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20 px 0;
+}
